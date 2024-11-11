@@ -1,0 +1,17 @@
+.custom__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 136px;
+}
+.custom__content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  width: 500px;
+}
+@media (max-width: 925px) {
+  .custom__content {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Custom.css.map */

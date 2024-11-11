@@ -1,0 +1,21 @@
+.support {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.brand {
+  display: flex;
+  gap: 114px;
+  background-color: #F6F6F6;
+}
+@media (max-width: 904px) {
+  .brand {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Partner.css.map */

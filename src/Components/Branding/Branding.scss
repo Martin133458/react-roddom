@@ -1,0 +1,21 @@
+.branding__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 173px;
+    margin-top: 136px;
+    h1  {
+        font-size: 64px;
+        font-weight: 700;
+        width: 500px;
+    }
+    @media (max-width:924px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.btn {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
